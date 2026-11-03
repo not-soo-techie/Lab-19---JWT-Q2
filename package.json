@@ -4,7 +4,7 @@
   "description": "Lab 19 - Q2: Token based authentication with JWT and Prisma (register, login, protected route)",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node --watch src/server.js",
     "dev": "nodemon src/server.js",
     "test": "jest --runInBand --verbose",
     "db:studio": "prisma studio",
