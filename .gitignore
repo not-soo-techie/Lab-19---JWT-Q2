@@ -1,0 +1,8 @@
+node_modules/
+coverage/
+.env
+.DS_Store
+
+# SQLite database files
+prisma/*.db
+prisma/*.db-journal

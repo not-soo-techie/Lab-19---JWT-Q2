@@ -1,0 +1,21 @@
+// Prisma schema file
+// Docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// TODO 0: Define a `User` model with the following fields:
+//
+//   id         Int       primary key, auto-incremented      (@id @default(autoincrement()))
+//   username   String    must be unique                     (@unique)
+//   password   String    will hold the bcrypt hash
+//   createdAt  DateTime  set automatically when created     (@default(now()))
+//
+// After saving this file run:  npx prisma db push
+// (this creates the table in dev.db and regenerates Prisma Client)
